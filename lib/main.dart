@@ -7,6 +7,8 @@ import "Provider/data_provider.dart";
 import "Resources/resources.dart";
 import "Screens/Splash/splash1.dart";
 
+// ThinkBOT initial setup
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Hive.initFlutter();
